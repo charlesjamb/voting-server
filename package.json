@@ -1,0 +1,12 @@
+{
+  "name": "voting-server",
+  "version": "1.0.0",
+  "description": "server for live voting app, based on this tuto: http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#the-app",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:charlesjamb/voting-server.git",
+    "type": "git"
+  },
+  "author": "Charles Jambon",
+  "license": "MIT"
+}
