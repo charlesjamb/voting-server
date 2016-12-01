@@ -18,7 +18,7 @@
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test": "mocha --compilers js:babel-core/register --recursive --require ./test/test_helper.js --recursive",
     "test:watch": "yarn run test -- --watch"
   },
   "babel": {
