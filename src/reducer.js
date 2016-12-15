@@ -11,4 +11,4 @@ export default function reducer(state = INITIAL_STATE, action) {
 													voteState => vote(voteState, action.entry));
 	}
 	return state;
-}
+};
